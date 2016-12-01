@@ -409,6 +409,7 @@
 				A3D506C31DEDD7AB00C8996C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D506C41DEDD7AB00C8996C /* Build configuration list for PBXNativeTarget "feedit_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				A3D506C61DEDD7AB00C8996C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
