@@ -15,17 +15,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = NSURL(string: "http://10.1.2.124:8080/feedit");
-        
-        let request = NSURLRequest(URL: url!);
-        
-        webView.loadRequest(request);
+        let mainWebView = UIWebView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
+        let mainUrl = NSURL(string: "http://10.1.2.124:8080/feedit")
+        let request = NSURLRequest(URL: mainUrl!)
+        mainWebView.loadRequest(request)
+        self.view.addSubview(mainWebView)
         
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-      
     }
 
 }
